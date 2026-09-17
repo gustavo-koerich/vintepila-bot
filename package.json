@@ -1,0 +1,18 @@
+{
+  "name": "vintepila-bot",
+  "version": "1.0.0",
+  "description": "Envia novas oportunidades do vintepila.com.br para um grupo do Telegram",
+  "main": "scrape.js",
+  "scripts": {
+    "start": "node scrape.js",
+    "get-chat-id": "node get-chat-id.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "cheerio": "^1.2.0",
+    "dotenv": "^17.4.2"
+  }
+}
