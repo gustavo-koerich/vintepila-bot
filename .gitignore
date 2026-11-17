@@ -2,3 +2,4 @@ node_modules/
 .env
 run.log
 seen.json
+hangar.yaml
